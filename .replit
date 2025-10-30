@@ -34,7 +34,7 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "javac oned.java && java oned"
+args = "javac str.java && java str"
 
 [workflows.workflow.metadata]
 outputType = "console"
