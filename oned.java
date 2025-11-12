@@ -41,12 +41,22 @@ class oned{
             }
 
         }
+        int sum=0;
+        int count=0;
         for(int i=0; i<a.length; i++){
             for(int j=0; j<a[i].length; j++){
-                System.out.println(a[i]);
+                sum=sum+a[i][j];
+                if(a[i][j]>10){
+                count++;
+                }
             }
         }
-        System.out.println(Arrays.toString(a));
+        System.out.println("Sum of elements is: " + sum);
+        System.out.println("Elements greater than 10 are: " + count);
+        System.out.println(Arrays.deepToString(a));
+        int n = a.length;
+        
+        System.out.println(Arrays.toString(a[n-1]));
 
     }
 

@@ -38,4 +38,4 @@ outputType = "console"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "javac oned.java && java oned"
+args = "javac types_exception.java && java types_exception"
